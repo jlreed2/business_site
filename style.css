@@ -10,6 +10,8 @@ Text Domain: jennifer_reed_business_template
 
 @import url("stylesheets/normalize.css");
 @import url("stylesheets/skeleton.css");
+@import url("stylesheets/unslider.css");
+@import url("stylesheets/unslider-dots.css");
 
 html, body{
     color: #000000;
@@ -19,7 +21,7 @@ html, body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #999999;
+    color: #000000;
     font-weight: 700;
 }
 
@@ -41,8 +43,14 @@ h5 {
 }
 
 a{
+    color: #000000;
     font-weight: 700;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #3A509E;
 }
 
 .wie-search-form .screen-reader-text {
@@ -52,11 +60,45 @@ a{
     overflow: hidden;
 }
 
+/*--HEADER--*/
+header {
+    background-color: #A2A4AA;
+    padding: 0 10px;
+}
+
+h1.site-title {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 13px 0 0;
+}
+
+h1.site-title a {
+    color: #000000;
+}
+
+#qs {
+    margin: 1.95em 0 0;  
+}
+
+#tele {
+    margin-bottom: 1rem;
+}
+
 /*--- Menu --- */
+
+#logo {
+    background-image: url(images/slicks_logo.png);
+	background-repeat: no-repeat;
+    margin-top: .75rem;
+    width: 75px;
+    height: 80px;
+	padding: 0px 4px;
+	float: left;
+}
 
 .blank-menu-header {
     text-align: left;
-    margin-top: 40px;
+    margin-top: 5.5rem;
 }
 .blank-menu-header ul {
     margin: 0; 
@@ -70,10 +112,48 @@ a{
 .blank-menu-header ul li a {
     text-decoration:none;  
     margin: 4px;
-    padding: 5px 0px 5px 40px; 
-    font-weight: 300;
-    font-size: 1.1rem;
+    padding: 5px 0px 5px 35px; 
+    font-weight: 400;
+    font-size: 1.2rem;
 }
 .blank-menu-header ul li a:hover {
-    color: #cccccc;
+    color: #3A509E;
+}
+
+/*--- Slider Styles ---*/
+.unslider{overflow:auto;margin:0;padding:0;}
+.unslider-wrap{position:relative;}
+.unslider-wrap.unslider-carousel>li{float:left;}
+.unslider-vertical>ul{height:100%;}
+.unslider-vertical li{float:none;width:100%;}
+.unslider-fade{position:relative;}
+.unslider-fade .unslider-wrap li{position:absolute;left:0;top:0;right:0;z-index:8;}
+.unslider-fade .unslider-wrap li.unslider-active{z-index:10;}
+.unslider li,.unslider ol,.unslider ul{list-style:none;margin:0;padding:0;border:none;}
+.unslider-arrow{position:absolute;left:20px;z-index:2;cursor:pointer;}
+.unslider-arrow.next{left:auto;right:20px;}
+
+.my-slider { 
+  position: relative; 
+  overflow: auto; 
+  margin-top:25px;
+  margin-bottom: 25px;
+}
+
+.my-slider li { 
+  list-style: none;
+}
+
+.my-slider ul li { 
+  float: left; 
+}
+
+.slide-container {
+  height: 400px;
+}
+
+.slides-message {
+  margin: 275px 0 0 20px;
+  padding:20px 0 20px 10px;
+  color: #fff;
 }
