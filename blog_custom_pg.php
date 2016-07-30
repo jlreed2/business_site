@@ -2,40 +2,39 @@
 /*
 Template Name: Blog Posts
 */
-<?php get_header(); ?>
 
+get_header(); ?>
 <?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
 
 <!-- BEGIN SECTION PHP -->
     <section class="row">
-        <div class="twelve columns">
+        <div class="nine columns">
             <!-- BEGIN LOOP -->
             <?php 
                 if (have_posts()) {
                     while(have_posts()) {
                         /*OUR DATA CONTEXT IS DEFINED */
                         the_post(); ?>
-            
-                        <h2><?php the_title(); ?></h2>
-                        <?php the_content(); ?>
-                    <?php
+                        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <?php the_excerpt(__('Continue reading »','example')); ?>
+                        <?php
                     }//end while
                 ?>
-                    
-                <!-- Navigation -->
                 <div class="navigation">
-                <span class="newer">
-                    <?php previous_posts_link(__('« Newer','example')) ?>
-                </span> 
-                <span class="older">
-                    <?php next_posts_link(__('Older »','example')) ?>
-                </span>
-            </div>
+                    <span class="newSer">
+                        <?php previous_posts_link(__('« Newer','example')) ?>
+                    </span> 
+                    <span class="older">
+                        <?php next_posts_link(__('Older »','example')) ?>
+                    </span>
+                </div>
             <?php
                 } //end if
-            wp_reset_query();
-            ?>
+            wp_reset_query(); ?>
             <!-- END LOOP -->
+        </div>
+        <div class="three columns">
+            <?php get_sidebar(); ?>
         </div>
     </section>
 <!-- END SECTION PHP -->

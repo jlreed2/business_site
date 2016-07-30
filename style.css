@@ -13,6 +13,7 @@ Text Domain: jennifer_reed_business_template
 
 html, body{
     color: #000000;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 16px;
 }
@@ -23,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+    font-family: 'Palanquin Dark', sans-serif;
     font-size: 3.0rem;
 }
 h2 {
@@ -41,6 +43,13 @@ h5 {
 a{
     font-weight: 700;
     text-decoration: none;
+}
+
+.wie-search-form .screen-reader-text {
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
 }
 
 /*--- Menu --- */

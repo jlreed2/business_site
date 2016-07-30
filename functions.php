@@ -55,6 +55,10 @@ add_theme_support( 'post-thumbnails' );
 
 
 /*--- Slider Plugin for WordPress ---*/
+wp_deregister_script('jquery');
+
+wp_enqueue_script('jquery', 'http://code.jquery.com/jquery-latest.min.js','','',true);
+
 function enqueue_unslider() {
     wp_enqueue_script(                                  // function to enqueue script
     'unslider',                                         // name of our script (id)
