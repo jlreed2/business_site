@@ -31,6 +31,7 @@ h1 {
 }
 h2 {
     font-size: 2.5rem;
+    color: #3A509E;
 }
 h3 {
     font-size: 2.0rem;    
@@ -58,6 +59,10 @@ a:hover {
     left: -999em;
     width: 1em;
     overflow: hidden;
+}
+
+.body {
+    margin-top: .5rem;
 }
 
 /*--HEADER--*/
@@ -123,8 +128,15 @@ h1.site-title a {
     color: #3A509E;
 }
 
-.current-menu-item a {
+.current_page_item a {
     color: #3A509E;
+}
+
+.children {
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
 }
 
 @media all and (min-width: 600px) {
@@ -176,6 +188,77 @@ h1.site-title a {
 .slides-message h1 {
     color: #3A509E;
 }
+
+/*--- INDEX PG ---*/
+
+#test {
+    background-image: url(images/test_quotes.png);
+	background-repeat: no-repeat;
+    width: 150px;
+    height: 115px;
+	padding: 0px 4px;
+	float: left;
+}
+#service {
+    background-image: url(images/service.png);
+	background-repeat: no-repeat;
+    width: 150px;
+    height: 115px;
+	padding: 0px 4px;
+	float: left;
+}
+#quote {
+    background-image: url(images/dollar.png);
+	background-repeat: no-repeat;
+    width: 150px;
+    height: 115px;
+	padding: 0px 4px;
+	float: left;
+}
+#blog {
+    background-image: url(images/blog.png);
+	background-repeat: no-repeat;
+    width: 150px;
+    height: 115px;
+	padding: 0px 4px;
+	float: left;    
+}
+#location {
+    background-image: url(images/location.png);
+	background-repeat: no-repeat;
+    width: 150px;
+    height: 115px;
+	padding: 0px 4px;
+	float: left;    
+}
+#about {
+    background-image: url(images/about.png);
+	background-repeat: no-repeat;
+    width: 150px;
+    height: 115px;
+	padding: 0px 4px;
+	float: left;    
+}
+
+/*---WIDGETS---*/
+.widget-blog {
+    margin-top: .25rem;
+}
+
+/*---FORM---*/
+.contact_form {
+    width: 70%;
+    margin: .5rem auto;
+    border-style: solid;
+    border-width: medium;
+    border-color: #3A509E;
+    padding: .5em;
+}
+
+.submit-button:hover {
+    background-color: #A2A4AA;
+}
+
 
 /*--FOOTER--*/
 footer {

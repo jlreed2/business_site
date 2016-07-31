@@ -1,13 +1,13 @@
 <?php
 /*
-Template Name: About Page
+Template Name: Pricing Page
 */
 
 get_header(); ?>
 <!-- BEGIN SECTION PHP -->
     <section class="body row">
          <div class="three columns">
-            <?php dynamic_sidebar('about-widget'); ?>
+            <?php dynamic_sidebar('pricing-widget'); ?>
         </div>
         <div class="nine columns">
             <!-- BEGIN LOOP -->

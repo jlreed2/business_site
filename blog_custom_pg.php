@@ -7,7 +7,7 @@ get_header(); ?>
 <?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
 
 <!-- BEGIN SECTION PHP -->
-    <section class="row">
+    <section class="body row">
         <div class="three columns">
             <?php dynamic_sidebar('blog-widget'); ?>
         </div>

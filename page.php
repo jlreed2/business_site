@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <!-- BEGIN SECTION PHP -->
-    <section class="row">
+    <section class="body row">
          <div class="three columns">
             <?php get_sidebar(); ?>
         </div>

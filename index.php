@@ -3,7 +3,7 @@
 <!--Begin Section Container -->
 <section class="row">
     <div class="twelve columns">
-        <div class="my-slider">
+        <div class="row my-slider">
             <ul>
         <?php
             $args   = array( 'post_type' => 'Slider' );
@@ -33,13 +33,35 @@
         ?>
             </ul>
         </div>
-        <div class="secondary">
-            <a id="test" href=""></a>
-            <a id="service" href="http://www.jenniferlreed.com/WIE-Slicks/pricing/"></a>
-            <a id="quote" href="http://www.jenniferlreed.com/WIE-Slicks/contact-us/"></a>
-            <a id="blog" href="http://www.jenniferlreed.com/WIE-Slicks/blog/"></a>
-            <a id="location" href=""></a>
-            <a id="about" href="http://www.jenniferlreed.com/WIE-Slicks/about/"></a>
+        <div class="row secondary">
+            <div class="twelve columns">
+                <div class="four columns">
+                    <a id="test" href="http://www.jenniferlreed.com/WIE-Slicks/about/testimonials/"></a>
+                    <h5>Testimonials</h5>
+                </div>
+                <div class="four columns">
+                    <a id="service" href="http://www.jenniferlreed.com/WIE-Slicks/pricing/"></a>
+                    <h5>Services</h5>
+                </div>
+                <div class="four columns">
+                    <a id="quote" href="http://www.jenniferlreed.com/WIE-Slicks/contact-us/"></a>
+                    <h5>Need A Quote?</h5>
+                </div>
+            </div>
+            <div class="twelve columns">
+                <div class="four columns">
+                    <a id="blog" href="http://www.jenniferlreed.com/WIE-Slicks/blog/"></a>
+                    <h5>Blog</h5>
+                </div>
+                <div class="four columns">
+                    <a id="location" href="http://www.jenniferlreed.com/WIE-Slicks/contact-us/location/"></a>
+                    <h5>Location</h5>
+                </div>
+                <div class="four columns">
+                    <a id="about" href="http://www.jenniferlreed.com/WIE-Slicks/about/"></a>
+                    <h5>About Slick's</h5>
+                </div>
+            </div>
         </div>
 
     </div>
