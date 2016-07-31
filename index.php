@@ -33,6 +33,14 @@
         ?>
             </ul>
         </div>
+        <div class="secondary">
+            <a id="test" href=""></a>
+            <a id="service" href="http://www.jenniferlreed.com/WIE-Slicks/pricing/"></a>
+            <a id="quote" href="http://www.jenniferlreed.com/WIE-Slicks/contact-us/"></a>
+            <a id="blog" href="http://www.jenniferlreed.com/WIE-Slicks/blog/"></a>
+            <a id="location" href=""></a>
+            <a id="about" href="http://www.jenniferlreed.com/WIE-Slicks/about/"></a>
+        </div>
 
     </div>
 </section>

@@ -8,6 +8,9 @@ get_header(); ?>
 
 <!-- BEGIN SECTION PHP -->
     <section class="row">
+        <div class="three columns">
+            <?php dynamic_sidebar('blog-widget'); ?>
+        </div>
         <div class="nine columns">
             <!-- BEGIN LOOP -->
             <?php 
@@ -33,9 +36,7 @@ get_header(); ?>
             wp_reset_query(); ?>
             <!-- END LOOP -->
         </div>
-        <div class="three columns">
-            <?php get_sidebar(); ?>
-        </div>
+
     </section>
 <!-- END SECTION PHP -->
 

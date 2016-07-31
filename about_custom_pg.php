@@ -1,8 +1,13 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: About Page
+*/
+
+get_header(); ?>
 <!-- BEGIN SECTION PHP -->
     <section class="row">
          <div class="three columns">
-            <?php get_sidebar(); ?>
+            <?php dynamic_sidebar('about-widget'); ?>
         </div>
         <div class="nine columns">
             <!-- BEGIN LOOP -->

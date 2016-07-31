@@ -7,6 +7,7 @@
         </div>
         <div class="four columns">
             <?php dynamic_sidebar('footer-three'); ?>
+            <?php get_search_form(); ?>
         </div>
     </footer>
 

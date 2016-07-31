@@ -4,13 +4,33 @@
 function blank_widgets_init() {
     /*--SIDEBAR WIDGET---*/
     register_sidebar( array(
-        'name'          => ('First Widget'),
-        'id'            => 'first-widget',
-        'description'   => 'Widget for our sidebar on pages', 
-        'before_widget' => '<div class="widget-sidebar">', 
+        'name'          => ('Blog Widget'),
+        'id'            => 'blog-widget',
+        'description'   => 'Widget for our sidebar on blog', 
+        'before_widget' => '<div class="widget-blog">', 
         'after_widget'  => '</div>',
-        'before_title'  => '<h2>',
-        'after_title'   => '</h2>'                        
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'                        
+    ));
+        /*--ABOUT SIDEBAR WIDGET---*/
+    register_sidebar( array(
+        'name'          => ('About Widget'),
+        'id'            => 'about-widget',
+        'description'   => 'Widget for about sidebar', 
+        'before_widget' => '<div class="widget-about">', 
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'                        
+    ));
+        /*--PRICING SIDEBAR WIDGET---*/
+    register_sidebar( array(
+        'name'          => ('Pricing Widget'),
+        'id'            => 'pricing-widget',
+        'description'   => 'Widget for pricing sidebar', 
+        'before_widget' => '<div class="widget-pricing">', 
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'                        
     ));
     /*--FIRST FOOTER WIDGET---*/
     register_sidebar( array(

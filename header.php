@@ -8,6 +8,7 @@
     <!-- Links to our Styles -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans|Palanquin+Dark:500,400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     
 </head>
 <body>

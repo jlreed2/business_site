@@ -1,10 +1,13 @@
+<?php
+/*
+Template Name: Full Width 
+*/
+?>
+
 <?php get_header(); ?>
 <!-- BEGIN SECTION PHP -->
     <section class="row">
-         <div class="three columns">
-            <?php get_sidebar(); ?>
-        </div>
-        <div class="nine columns">
+        <div class="twelve columns">
             <!-- BEGIN LOOP -->
             <?php 
                 if (have_posts()) {
@@ -13,8 +16,7 @@
                         the_post(); ?>
             
                         <h2><?php the_title(); ?></h2>
-                        <?php the_content(); ?>
-                    <?php
+                        <?php the_content();
                     }//end while
                 } //end if
             ?>
