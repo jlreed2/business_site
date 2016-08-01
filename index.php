@@ -35,31 +35,31 @@
         </div>
         <div class="row secondary">
             <div class="twelve columns">
-                <div class="four columns">
-                    <a id="test" href="http://www.jenniferlreed.com/WIE-Slicks/about/testimonials/"></a>
-                    <h5>Testimonials</h5>
+                <div class="four columns card">
+                    <a id="test" href="http://www.jenniferlreed.com/WIE-Slicks/about/testimonials/"></a><br />
+                    <figcaption><h5>Testimonials</h5></figcaption>
                 </div>
-                <div class="four columns">
+                <div class="four columns card">
                     <a id="service" href="http://www.jenniferlreed.com/WIE-Slicks/pricing/"></a>
-                    <h5>Services</h5>
+                    <figcaption><h5>Services</h5></figcaption>
                 </div>
-                <div class="four columns">
+                <div class="four columns card">
                     <a id="quote" href="http://www.jenniferlreed.com/WIE-Slicks/contact-us/"></a>
-                    <h5>Need A Quote?</h5>
+                    <figcaption><h5>Need A Quote?</h5></figcaption>
                 </div>
             </div>
             <div class="twelve columns">
-                <div class="four columns">
+                <div class="four columns card">
                     <a id="blog" href="http://www.jenniferlreed.com/WIE-Slicks/blog/"></a>
-                    <h5>Blog</h5>
+                    <figcaption><h5>Blog</h5></figcaption>
                 </div>
-                <div class="four columns">
+                <div class="four columns card">
                     <a id="location" href="http://www.jenniferlreed.com/WIE-Slicks/contact-us/location/"></a>
-                    <h5>Location</h5>
+                    <figcaption><h5>Location</h5></figcaption>
                 </div>
-                <div class="four columns">
+                <div class="four columns card">
                     <a id="about" href="http://www.jenniferlreed.com/WIE-Slicks/about/"></a>
-                    <h5>About Slick's</h5>
+                    <figcaption><h5>About Slick's</h5></figcaption>
                 </div>
             </div>
         </div>
