@@ -1,8 +1,8 @@
-#Blog Template WIE
+#Business Template WIE
 ##Author: Jennifer Reed
 
 ###Description:
 
-Blog Template
+Business Template
 
-WordPress Template to be used in Blog site
+WordPress Template to be used in Business site
